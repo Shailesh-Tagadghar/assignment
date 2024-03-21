@@ -61,7 +61,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url('/images/bgimage.jpg');
+    background-image: url('../images/bgimage.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -100,9 +100,6 @@ header nav ul li a:hover {
     padding: 30px 0;
     display: flex;
     flex-direction: column;
-    /* Change to column direction */
-    /* align-items: center; */
-    /* Center align content */
 }
 
 .hero-section .division {
