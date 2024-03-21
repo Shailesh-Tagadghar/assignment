@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo {
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #faf6f6;
+    font-size: 25px;
+    text-decoration: none;
+    font: 200;
+}
+
+.hometext {
+    color: #fff;
+    font: bold;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+}
+
+.hero {
+    background-image: url('/images/bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero .head-text {
+    font-size: 100px;
+    color: #fff;
+    font: lighter;
+}
+
+.hero .bottom-text {
+    margin-top: 70px;
+    font-size: 40px;
+    color: #fff;
+    font-style: italic;
+    vertical-align: baseline;
+}
+
+.search-icon {
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.search-icon svg {
+    fill: #fff;
+}
+
+
+.hero-section {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    /* Change to column direction */
+    /* align-items: center; */
+    /* Center align content */
+}
+
+.hero-section .division {
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.division img {
+    width: auto;
+    height: 150px;
+    margin-right: 100px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    height: fit-content;
+}
+
+.btn h4 {
+    font-style: italic;
+}
+
+.div-sec {
+    margin-top: 65px;
+    font-size: 32px;
+    margin-left: 250px;
+    /* margin-right: 500px; */
+}
+
+.division .robo-image {
+    width: 800px;
+    height: 700px;
+    margin-left: 250px;
+    margin-top: 65px;
+}
+
+.division .robo-text {
+    margin-top: 65px;
+    margin-right: 35px;
+    font-size: 25px;
+    font: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-third h4 {
+    margin-top: 65px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.div-third ul li {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.div-fourth h4 {
+    margin-top: 65px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.div-fourth .sections {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.div-fourth .section {
+    flex: 1;
+    padding: 10px;
+    margin: 0 15px;
+    text-align: center;
+    max-width: 500px;
+}
+
+.div-fourth .section h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.div-fourth .section p {
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+
+
+.div-fifth h4 {
+    font-size: 50px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+
+.div-fifth .sections {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.div-fifth .section {
+    flex: 1;
+    /* padding: 10px; */
+    margin: 0 20px;
+    text-align: center;
+    max-width: 235px;
+}
+
+.div-fifth .section h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.div-fifth .section p {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 65px;
+}
+
+.div-six h4{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.div-six .btns {
+    padding: 10px 190px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    height: fit-content;
+    text-align: center;
+}
+
+.btn h4 {
+    font-style: italic;
+}
+
+footer {
+    background-color: #ffffff;
+}
+
+.footer-section {
+    color: #000000;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 20px;
+    color: black;
+}
